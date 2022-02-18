@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Varela Round", sans-serif;
+    background-color: #151630;
+}
+
+.form{
+    background-image: linear-gradient(#1391ff, #0145ff);
+    width: 400px;
+    height: 600px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 16px;
+    padding: 120px 50px;
+    box-shadow: 2px 2px 8px #0000ab; 
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.form h1 {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    margin-bottom: 24px;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
+
+.inputs:hover {
+    border-bottom: 3px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+#email, #email::placeholder{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: lightgray;
+    margin-top: 8px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+#password, #password::placeholder{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: lightgray;
+    margin-top: 8px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+#password2, #password2::placeholder{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: lightgray;
+    margin-top: 8px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.button {
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 14px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0145ff;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+p{
+    color: lightgray;
+    font-size: 14px;
+}
